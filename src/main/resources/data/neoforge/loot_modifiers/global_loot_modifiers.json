@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "entries": [
+    "evoked:remove_totem_undying",
+    "evoked:add_life_rune",
+    "evoked:add_totem_husk"
+  ]
+}

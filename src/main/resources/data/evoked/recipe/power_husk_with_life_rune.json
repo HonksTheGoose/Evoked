@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "evoked:totem_husk" },
+    { "item": "evoked:rune_of_life" }
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
+}

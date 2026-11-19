@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.teamtaigamodding.evoked.Mixins",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "mixins": [
+    "EvokedTotemMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

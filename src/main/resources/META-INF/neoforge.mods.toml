@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "evoked"
+version = "2.2.1"
+displayName = "Evoked"
+logoFile = "evoked.png"
+credits = "DoltHHaven, Carmen, Sqzrth for da logo"
+authors = "Team Taiga"
+description = '''
+A mod that spices up Totems by making them more consistent and the process of acquiring them more fun
+'''
+
+[[mixins]]
+config = "evoked.mixins.json"
+
+[[dependencies.evoked]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.evoked]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
